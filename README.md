@@ -67,10 +67,10 @@ app/trained_model/plant_disease_prediction_model.h5
 
 The app is configured to look for this file locally. If it is not present, it can download the model from a GitHub Release asset after the release is created.
 
-Expected release asset URL:
+Release asset URL:
 
 ```text
-https://github.com/bhavyajain0810/plant-disease-cnn-classifier/releases/download/v1.0-model/plant_disease_prediction_model.h5
+https://github.com/bhavyajain0810/plant-disease-cnn-classifier/releases/download/v1.0-model/plant_disease_prediction_model.zip
 ```
 
 ## Local Setup
