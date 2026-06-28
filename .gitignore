@@ -1,0 +1,49 @@
+# Virtual environments
+venv/
+app/venv/
+*/venv/
+
+# Trained models / large ML artifacts
+app/trained_model/
+*.h5
+*.keras
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# Datasets / sample images
+AppleScabTest/
+Healthy/
+dataset/
+datasets/
+data/
+test_images/
+
+# Secrets / local config
+credentials.toml
+secrets.toml
+.streamlit/secrets.toml
+app/credentials.toml
+
+# Python cache
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Archives / temporary files
+*.zip
+preview-clean/
+plant-disease-code-only.zip
+plant-disease-prediction-clean.zip
+plant-disease-github-clean.zip
+
+# OS files
+.DS_Store
+Thumbs.db
